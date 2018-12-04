@@ -18,7 +18,7 @@ public void  CaptureScreenshot()throws Exception
 driver.	manage().window().maximize();
 driver.get("http://www.facebook.com");
 Utility.CaptureScreenshot(driver,"BrowserStarted" );
-driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("Learn Automation");
+driver.findElement(By.xpath(".//*[@id='email']class")).sendKeys("Learn Automation");
 Utility.CaptureScreenshot(driver,"TypeUName" );
 
 }
